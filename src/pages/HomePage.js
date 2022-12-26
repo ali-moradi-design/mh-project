@@ -3,7 +3,7 @@ import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
 import Pagination from "@mui/material/Pagination";
 import AdvancedTable from "../components/AdvancedTable/AdvancedTable";
-import makeData from "../lab/functions";
+import makeData from "../lib/functions";
 import { v4 as uuidv4 } from "uuid";
 
 const perPage = 10;
